@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulasi Menyatakan Cinta</title>
+    <title>Confess</title>
     <style>
         body {
             text-align: center;
@@ -38,10 +38,10 @@
 
 <body>
     <div class="love-message">
-        <p style="text-shadow: 2px 2px 4px red;">Mau ga jadi pacar aku seterusnya?</p>
+        <p style="text-shadow: 2px 2px 4px red;">Sayang Fitrah ga ?</p>
     </div>
-    <button class="btn" id="yesBtn">I do</button>
-    <button class="btn" id="noBtn">No I don't</button>
+    <button class="btn" id="yesBtn">Sayang dong</button>
+    <button class="btn" id="noBtn">Engga</button>
 
     <script>
         const loveMessage = document.querySelector('.love-message');
@@ -49,14 +49,14 @@
         const noButton = document.getElementById('noBtn');
 
         yesButton.addEventListener('click', function() {
-            loveMessage.innerHTML = '<p style="text-shadow: 2px 2px 4px red;">Thank u, I Love You !!!</p>';
+            loveMessage.innerHTML = '<p style="text-shadow: 2px 2px 4px red;">Alhamdulilah, Fitrah juga sayang Ayah dan Mamah. Semoga Alloh memberikan Ayah dan Mamamh kesehatan dan umur panjang yang barokah, biar bisa bareng Fitrah lama-lama hehe.</p><p style="text-shadow: 2px 2px 4px red;">Semangat yaa Ayah dan Mamah, Semoga segala urusan keluarga kita baik di dunia maupun di akhirot diberikan kemudahan, kelancaran, sukses, barokah... Amiin amiin.</p><p style="text-shadow: 2px 2px 4px red;">I Love You Ayah dan Mamah.</p>';
             loveMessage.style.fontSize = '35px';
             yesButton.style.display = 'none';
             noButton.style.display = 'none';
         });
 
         noButton.addEventListener('click', function() {
-            loveMessage.innerHTML = '<p style="text-shadow: 2px 2px 4px red;">Dih jahat amat bro !!!</p>';
+            loveMessage.innerHTML = '<p style="text-shadow: 2px 2px 4px red;">Fitrah sedih :( </p>';
             loveMessage.style.color = 'Black';
             loveMessage.style.fontSize = '35px';
             noButton.style.position = 'absolute';
